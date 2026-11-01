@@ -17,26 +17,6 @@
 
 This project exposes calendar data to Cursor through the Model Context Protocol (MCP). Once connected, you can ask Cursor's Agent things like *"What's on my calendar this week?"* and it will call this server to find out.
 
-| | |
-|---|---|
-| **Runtime** | Node.js (ES modules) |
-| **MCP SDK** | `@modelcontextprotocol/server` |
-| **Data source** | Google Calendar API via `googleapis` |
-| **Validation** | `zod` |
-| **Config** | `dotenv` + environment variables |
-
-## 📁 Project Structure
-
-```
-MCP-Server-using-Cursor/
-├── MCP_Server.js        # MCP server entry point
-├── mcp.example.json     # Cursor config template (copy → .cursor/mcp.json)
-├── .env.example         # Environment variable template
-├── .gitignore           # Keeps secrets out of git
-├── package.json         # Dependencies & scripts
-├── LICENSE              # MIT
-└── README.md
-```
 
 ## 🚀 Quick Start
 
@@ -94,9 +74,6 @@ npm start
 
 <!-- Fill this in from MCP_Server.js -->
 
-| Tool | Description | Parameters |
-|---|---|---|
-| _your_tool_name_ | _What it does_ | _`param: type`_ |
 
 ## 🛠 Development
 
@@ -116,12 +93,6 @@ npx @modelcontextprotocol/inspector node MCP_Server.js
 - **Never commit `.env` or real keys.** Both are git-ignored.
 - Restrict your Google API key (API restrictions + optional IP/app restrictions).
 - Rotate any key that was ever pushed to a public repository.
-
-## 🗺 Roadmap
-
-- [ ] Add more calendar tools (search, date-range queries)
-- [ ] Add example prompts / screenshots
-- [ ] Add automated tests
 
 ## 📄 License
 
