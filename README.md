@@ -20,34 +20,12 @@ This project exposes calendar data to Cursor through the Model Context Protocol 
 
 ## 🚀 Quick Start
 
-### 1. Clone and install
-
-```bash
-git clone https://github.com/SMFAHAD1/MCP-Server-using-Cursor.git
-cd MCP-Server-using-Cursor
-npm install
-```
-
-### 2. Configure environment variables
-
-```bash
-cp .env.example .env
-```
-
-Then edit `.env`:
-
 | Variable | Description |
 |---|---|
 | `GOOGLE_PUBLIC_API_KEY` | Google Cloud API key with the **Google Calendar API** enabled |
 | `CALENDAR_ID` | The ID of the calendar to read (must be **public** for API-key access) |
 
 > 🔑 Create a key in the [Google Cloud Console](https://console.cloud.google.com/apis/credentials) and restrict it to the Calendar API.
-
-### 3. Run it
-
-```bash
-npm start
-```
 
 ## 🔌 Connect to Cursor
 
@@ -73,20 +51,6 @@ npm start
 ## 🧰 Tools
 
 <!-- Fill this in from MCP_Server.js -->
-
-
-## 🛠 Development
-
-```bash
-npm start          # run the server
-npm test           # syntax-check the server file
-```
-
-Debug interactively with the MCP Inspector:
-
-```bash
-npx @modelcontextprotocol/inspector node MCP_Server.js
-```
 
 ## 🔒 Security
 
