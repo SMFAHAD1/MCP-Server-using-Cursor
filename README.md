@@ -48,10 +48,6 @@ This project exposes calendar data to Cursor through the Model Context Protocol 
 }
 ```
 
-## 🧰 Tools
-
-<!-- Fill this in from MCP_Server.js -->
-
 ## 🔒 Security
 
 - **Never commit `.env` or real keys.** Both are git-ignored.
