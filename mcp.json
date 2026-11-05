@@ -4,8 +4,8 @@
       "command": "node",
       "args": ["C:/VS Code/MCP/MCP_Server.js"],
       "env": {
-        "GOOGLE_PUBLIC_API_KEY" : "dfhskfiu8494fdfsdasf3",
-        "CALENDAR_ID" : "dkfkjdhfd@gmail.com"
+        "GOOGLE_PUBLIC_API_KEY" : "",
+        "CALENDAR_ID" : ""
       }
     }
   }
